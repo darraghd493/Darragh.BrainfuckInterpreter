@@ -6,8 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Version>$([System.DateTime]::Now.ToString("yyyy.MM.dd.HHmm"))</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -20,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Darragh.BrainfuckInterpreter\Darragh.BrainfuckInterpreter.csproj" />
-    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
