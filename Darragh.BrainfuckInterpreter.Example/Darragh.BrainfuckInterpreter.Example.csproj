@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Darragh.BrainfuckInterpreter\Darragh.BrainfuckInterpreter.csproj" />
-    <None Include="..\README.md" Pack="true" PackagePath="" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
