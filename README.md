@@ -18,7 +18,12 @@ This is a brainfuck parser and interpreter written in C#.
 
 ## Installation
 
-This project is currently not on Nuget. You will need to clone it in order to use it.
+~~This project is currently not on Nuget. You will need to clone it in order to use it.~~
+
+This project is now available on Nuget as `Darragh.BrainfuckInterpreter`.
+```bash
+dotnet add package Darragh.BrainfuckInterpreter
+```
 
 ## Usage
 
